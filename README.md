@@ -9,7 +9,15 @@
 
 
 ```java
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+class HCPPlass extends PPlass {
+	PPlass (int ln, int br) {
+		super (ln, br);
+	}
+
+    boolean parker (Bil bln) {
+   		if (ledig && bln instanceof  HCBil && plassOK(bln)){ 
+   			ledig = false; bilen = bln; return true;
+   		} else return false;
+    }
+}
 ```
