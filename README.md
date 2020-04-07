@@ -1,5 +1,8 @@
-**Gjuha programuese JAVA**
-| Command | Description |
+**Java Programming Exercises, Practice, Solution**
+| Chapters | Description |
 | --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| Fundamental Data Types | Variables, Arithmetic, Input and Output, Strings |
+| Decisons | The **if** Statement |
+
+| Fundamental Data Types | List all *new or modified* files |
+| Decisons | Show file differences that **haven't been** staged |
