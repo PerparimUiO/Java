@@ -57,7 +57,7 @@ Shkruaj një program me një klasë `ShumaNr` duke përdorur një metodë kryeso
 <p>
 
 ```java
-class ShumaNr.java {
+class ShumaNr {
     public static void main(String[] args) {
         int a;
         int b;
@@ -88,11 +88,12 @@ class Printim {
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
-Rreshti 2: "stitac" duhet të jetë "static".
     
-Rreshti 2: "(String args)" duhet të jetët "(String[] args)".
+Rreshti 2: "stitac" duhet të jetë "**static**".
+    
+Rreshti 2: "(String args)" duhet të jetët "**(String[] args)**".
 
-Rreshti 2: Kllapat në fund të rreshtit duhet të jenë kllapë e madhe.
+Rreshti 2: Kllapa në fund të rreshtit duhet të jenë kllapë e madhe.
 
 Rreshti 3: Një pikëpresje që mungon në fund të rreshtit.
 
