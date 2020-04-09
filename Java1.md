@@ -1,6 +1,6 @@
 ## Emri i klasës në Java 
 
-💡 Sugjerim: Cili është një emër i mirë i klasës në Java?
+Cili është një emër i mirë i klasës në Java?
 
 a) class bok
 
@@ -11,7 +11,7 @@ c) class Bok
 
 <details><summary>💾 Løsningsforslag </summary>
 <p>
-Opsioni c) është përgjigjja e saktë. Asnjë nga emrat e klasave nuk do të shkaktojë gabime të përpilimit, por në Java, konventa është që të shkruani emrat e klasave me një shkronjë të parë të madhe, dhe shkronjat e mbetura në emrin e klasës duhet të jenë të vogla. Mos harroni gjithashtu se emri i skedarit të kësaj klase duhet të jetë Bok.java.
+💡 Sugjerim: Opsioni c) është përgjigjja e saktë. Asnjë nga emrat e klasave nuk do të shkaktojë gabime të përpilimit, por në Java, konventa është që të shkruani emrat e klasave me një shkronjë të parë të madhe, dhe shkronjat e mbetura në emrin e klasës duhet të jenë të vogla. Mos harroni gjithashtu se emri i skedarit të kësaj klase duhet të jetë Bok.java.
 
 </p>
 </details>
@@ -65,7 +65,7 @@ class ShumaNr.java {
         a = 4;
         b = 5;
 
-        System.out.println("Summen er: " + (a + b));
+        System.out.println("Shuma eshte: " + (a + b));
     }
 }
 ```
