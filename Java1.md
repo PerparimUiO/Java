@@ -48,19 +48,25 @@ Për të kompajluar dhe ekzekutuar në terminal:
 </details>
 
 
-### 2b
-Skriv en metode `public int hentKilometerstand`. Metoden tar ikke imot noen parametere, men skal returnere antall kilometer motorsykkelen har kjørt. Skriv deretter en tilsvarende metode `public int hentProduksjonsnummer`.
+## Shuma e numrave të plotë
+Emri i Skedarit: `ShumaNr.java`
 
-<details><summary>💾 Løsningsforslag </summary>
+Shkruaj një program me një klasë `ShumaNr` duke përdorur një metodë kryesore. Krijoni dy ndryshore të tipit **int** dhe i quajini ato `a` dhe `b`. Ruani vlerat `4` dhe `5` në variabla. Shfaq shumën e numrave.
+
+<details><summary>💾 Zgjidhje alternative </summary>
 <p>
 
 ```java
-public int hentKilometerstand() {
-    return kilometerstand;
-}
+class ShumaNr.java {
+    public static void main(String[] args) {
+        int a;
+        int b;
 
-public int hentProduksjonsnummer() {
-    return produksjonsnummer;
+        a = 4;
+        b = 5;
+
+        System.out.println("Summen er: " + (a + b));
+    }
 }
 ```
 
