@@ -1,4 +1,4 @@
- IN1010 V19 - Seminaroppgaver uke 1
+
 
 ## Oppgave 1 
 Følgende program er skrevet i Python. Skriv programmet på nytt med Java-syntaks (merk at alle metodene i dette tilfellet skal være offentlige):
