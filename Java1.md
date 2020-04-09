@@ -77,7 +77,7 @@ class ShumaNr.java {
 
 Gjeni 5 gabime në programin vijues:
 
-```java
+```
 class Printim {
     public stitac void main(String args) (
         System.out.println("Lumenjtë kryesor të Kosovës janë:Drini i Bardhe,Ereniku, Ibri")
@@ -89,9 +89,13 @@ class Printim {
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
 Rreshti 2: "stitac" duhet të jetë "static".
+    
 Rreshti 2: "(String args)" duhet të jetët "(String[] args)".
+
 Rreshti 2: Kllapat në fund të rreshtit duhet të jenë kllapë e madhe.
+
 Rreshti 3: Një pikëpresje që mungon në fund të rreshtit.
+
 Rreshti 4: Mungojnë thonjëzat përmbyllëse në varg brenda deklarimit të `println`.
 
 
