@@ -1,9 +1,9 @@
 
-
+💡 Hint:
 ## Oppgave 1 
 Følgende program er skrevet i Python. Skriv programmet på nytt med Java-syntaks (merk at alle metodene i dette tilfellet skal være offentlige):
 
-![Oppgave 2a](media/uke05oppg2a.png)
+
 <details><summary>💾 Løsningsforslag </summary>
 <p>
 
