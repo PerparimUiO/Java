@@ -22,11 +22,10 @@ Opsioni c) është përgjigjja e saktë. Asnjë nga emrat e klasave nuk do të s
 
 Emri i Skedarit: `Personinfo.java`
 
-1. Krijoni një skedar të ri në një redaktues teksti (për shembull, Atom, Sublime Text,Vim, Emacs, apo Notepad++) dhe ruajeni skedarin si Personinfo.java
-2. Shfaq të dhënat në klasën e Informacionit të Personave.
-3. Krijoni metodën `public static void main(String[] args)` në klasë.
-4. Përdorni `System.out.println ()` për të shtypur emrin tuaj terminali.
-5. Pastaj zgjeroni aplikacionin tuaj në mënyrë që të printojë edhe numrin tuaj të telefonit dhe adresën e rrugës në terminal, në linjën e tij shtesë.
+1. Krijoni një skedar të ri në një redaktues teksti (për shembull, Atom, Sublime Text,Vim, Emacs, apo Notepad++) dhe ruajeni skedarin si `Personinfo.java`
+2. Krijoni metodën `public static void main(String[] args)` në klasë.
+3. Përdorni `System.out.println ()` për të shtypur emrin tuaj terminali.
+4. Pastaj zgjeroni aplikacionin tuaj në mënyrë që të printojë edhe numrin tuaj të telefonit dhe adresën e rrugës në terminal, në linjën e tij shtesë.
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
