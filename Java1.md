@@ -93,11 +93,11 @@ Rreshti 2: "stitac" duhet të jetë "**static**".
     
 Rreshti 2: "(String args)" duhet të jetët "**(String[] args)**".
 
-Rreshti 2: Kllapa në fund të rreshtit duhet të jenë kllapë e madhe.
+Rreshti 2: Kllapa në fund të rreshtit duhet të jenë kllapë e madhe **{**.
 
-Rreshti 3: Një pikëpresje që mungon në fund të rreshtit.
+Rreshti 3: Një pikëpresje **;** që mungon në fund të rreshtit.
 
-Rreshti 4: Mungojnë thonjëzat përmbyllëse në varg brenda deklarimit të `println`.
+Rreshti 4: Mungojnë thonjëzat **"** përmbyllëse në varg brenda deklarimit të `println`.
 
 
 </p>
