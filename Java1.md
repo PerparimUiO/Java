@@ -11,44 +11,39 @@ c) class Bok
 
 <details><summary>💾 Løsningsforslag </summary>
 <p>
-*Opsioni c)* është përgjigjja e saktë. Asnjë nga emrat e klasave nuk do të shkaktojë gabime të përpilimit, por në Java, konventa është që të shkruani emrat e klasave me një shkronjë të parë të madhe, dhe shkronjat e mbetura në emrin e klasës duhet të jenë të vogla. Mos harroni gjithashtu se emri i skedarit të kësaj klase duhet të jetë `Bok.java`.
+Opsioni c) është përgjigjja e saktë. Asnjë nga emrat e klasave nuk do të shkaktojë gabime të përpilimit, por në Java, konventa është që të shkruani emrat e klasave me një shkronjë të parë të madhe, dhe shkronjat e mbetura në emrin e klasës duhet të jenë të vogla. Mos harroni gjithashtu se emri i skedarit të kësaj klase duhet të jetë Bok.java.
 
 </p>
 </details>
 
-
 ***
 
-## Oppgave 2
-### 2a
-Skriv en klasse Motorsykkel.java. Klassen skal inneholde følgende instansvariabler:
-- `private int kilometerstand`
-- `private String registreringsnummer`
-- `private int produksjonsnummer`
+## Informacione personale
 
-Klassen skal også inneholde en konstruktør som tar inn registreringsnummeret. Instansvariabelen `kilometerstand` skal starte med verdien `0`.
+Emri i Skedarit: `Personinfo.java`
 
-I tillegg skal klassen inneholde en `private static int teller`, som starter med verdien `0`. Denne skal dere ta i bruk i konstruktøren, slik at hvert nye `Motorsykkel`-objekt får et unikt produksjonsnummer.
+1. Krijoni një skedar të ri në një redaktues teksti (për shembull, Atom, Sublime Text,Vim, Emacs, apo Notepad++) dhe ruajeni skedarin si Personinfo.java
+2. Shfaq të dhënat në klasën e Informacionit të Personave.
+3. Krijoni metodën `public static void main(String[] args)` në klasë.
+4. Përdorni `System.out.println ()` për të shtypur emrin tuaj terminali.
+5. Pastaj zgjeroni aplikacionin tuaj në mënyrë që të printojë edhe numrin tuaj të telefonit dhe adresën e rrugës në terminal, në linjën e tij shtesë.
 
-<details><summary>💾 Løsningsforslag </summary>
+<details><summary>💾 Zgjidhje alternative </summary>
 <p>
 
 ```java
-class Motorsykkel {
-    private int kilometerstand;
-    private String registreringsnummer;
-    private int produksjonsnummer;
-    private static int teller = 0;
-    
-    public Motorsykkel (String regnr) {
-        this.kilometerstand = 0;
-        registreringsnummer = regnr;
-        
-        this.produksjonsnummer = teller;
-        teller++;
+class Personinfo {
+    public static void main(String[] args) {
+        System.out.println("Perparim Shala");
+        System.out.println("222000111");
+        System.out.println("Rr.Ilaz Kodra, Drenas");
     }
 }
 ```
+Për të kompajluar dhe ekzekutuar në terminal:
+
+- `javac Personinfo.java`
+- `java Personinfo`
 
 </p>
 </details>
