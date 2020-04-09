@@ -3,18 +3,7 @@
 ## Oppgave 1 
 Følgende program er skrevet i Python. Skriv programmet på nytt med Java-syntaks (merk at alle metodene i dette tilfellet skal være offentlige):
 
-``` python
-class Person:
-	def __init__(self, alder, navn):
-		self._alder = alder
-		self._navn = navn
-	
-	def skrivUt(self):
-		print(self._navn, self._alder)
-	
-	def haBursdag(self):
-		self._alder +=1
-```
+![Oppgave 2a](media/uke05oppg2a.png)
 <details><summary>💾 Løsningsforslag </summary>
 <p>
 
