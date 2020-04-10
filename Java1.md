@@ -179,7 +179,7 @@ a) Ju duhet të shkruani një klasë Drejtkëndësh me përfaqësimin e të dhë
 ```java
 class Drejtkendesh {
 
-  public Drejtkendesh (double gjatesia, double gjeresia) {   // Konstruktør
+  public Drejtkendesh (double gjat, double gjer) {   // Konstruktør
   }
 
   public void rritjeGjatesise (int rritje) {// Gjatësia siç përcaktohet
@@ -210,70 +210,70 @@ c) Zgjeroni klasën me metoda për të zvogëluar një objekt.
 
 ```java
 --------------------------------- A)--------------------------------------------------------
-class Rektangel{
+class Drejtkendesh{
 
-    double bredde;
-    double lengde;
+    double gjatesia;
+    double gjeresia;
 
-    public Rektangel(double l, double b){
-        lengde = l;
-        bredde = b;
+    public Drejtkendesh(double gjat, double gjer){
+        gjatesia = gjat;
+        gjeresia = gjer;
     }
 
-    public void oekLengde(int okning){
-        lengde = lengde + okning;
-        //lengde += okning;
+    public void rritjeGjatesise(int rritje){
+        gjatesia = gjatesia + rritje;
+        //gjatesia += rritje;
     }
 
-    public void oekBredde(int okning){
-        bredde = bredde + okning;
-        //lengde += okning;
+    public void rritjeGjeresise(int rritje){
+        gjeresia = gjeresia + rritje;
+        //gjeresia += rritje;
     }
 
-    public double areal(){
-        return bredde*lengde;
+    public double sperfaqe(){
+        return gjeresia*gjatesia;
     }
 
-    public double omkrets(){
-        return bredde*2 + lengde*2;
+    public double perimetri(){
+        return gjeresia*2 + gjatesia*2;
     }
 }
 --------------------------------- B)--------------------------------------------------------
-class RektangelHovedprogram{
+class DrejtkendeshProgKryesor{
 
     public static void main(String[] args) {
 
-        Rektangel en = new Rektangel(5,9);
-        Rektangel to = new Rektangel(10, 2);
+        Drejtkendesh nje = new Drejtkendesh(5,9);
+        Drejtkendesh dy = new Drejtkendesh(10, 2);
 
-        System.out.println("Areal: " +  en.areal());
-        System.out.println("Areal: " + to.areal());
+        System.out.println("Siperfaqja: " +  nje.sperfaqe());
+        System.out.println("Siperfaqja: " + dy.sperfaqe());
 
-        en.oekBredde(5);
-        to.oekLengde(2);
+        nje.rritjeGjatesise(5);
+        dy.rritjeGjeresise(2);
 
-        System.out.println("Omkrets: " + en.omkrets());
-        System.out.println("Omkrets: " + to.omkrets());
+        System.out.println("Perimetri: " + nje.perimetri());
+        System.out.println("Perimetri: " + dy.perimetri());
     }
 }
 
 //           C)         Metodat e mëposhtme i përkasin klasës Drejtkëndësh.
 
-public void reduserBredde(int reduser){
-    if (bredde - reduser < 1){
-        System.out.println("Bredden kan ikke reduseres så mye");
+public void reduktoGjeresise(int redukto){
+    if (gjeresia - redukto < 1){
+        System.out.println("Gjerësia nuk mund të zvogëlohet aq shumë");
     }
     else {
-        bredde = bredde - reduser;
+        gjeresia = gjeresia - redukto;
     }
 }
 
-public void reduserLengde(int reduser){
-    if (lengde - reduser < 1){
-        System.out.println("Lengden kan ikke reduseres så mye");
+public void reduktoGjatesise(int redukto){
+    if (gjatesia - redukto < 1){
+        System.out.println("Gjatësia nuk mund të zvogëlohet aq shumë");
     }
     else {
-        lengde = lengde - reduser;
+        gjatesia = gjatesia - redukto;
     }
 }
 ```
