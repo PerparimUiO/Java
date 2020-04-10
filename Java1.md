@@ -134,14 +134,36 @@ class Sammenlign {
 </p>
 </details>
 
-### 2e
-Hvis vi kalte på `Motorsykkel`-objektets `hentKilometerstand`-metode nå, hvilket resultat får vi?
+## Vlerat logjike
 
-<details><summary>💾 Løsningsforslag </summary>
+a) Krijoni një program që përmban dy ndryshore boolean me emra të `vërtetë` dhe `pavërtetë`, dhe jepni vlerat e variablave të **true** dhe **false**. Shtypni përmbajtjen e një ndryshore duke përdorur komandën **`System.out.println`** dhe shikoni se si duket në kohën e funksionimit.
+
+b) Zgjeroni programin tuaj me dy nëse testoni. E para është që të krahasohen dy variablat në mënyrë që rezultati të jetë i vërtetë me vlerat që i keni dhënë në a) dhe pastaj të shtypni "Testi i parë u ekzekutu!".
+
+Testi i dytë është krahasimi i dy ndryshoreve në atë mënyrë që rezultati të jetë i rremë (me të njëjtat dy vlera). Ky test duhet të ketë një degë tjetër që shtyp "Testet e tjera nuk u ekzekut!"
+
+<details><summary>💾 Zgjidhje alternative </summary>
 <p>
 
 ```java
-System.out.println(m1.hentKilometerstand()); // 50
+1  class BoolskeVerdier {
+2        public static void main(String[] args) {
+3            boolean sann = true;
+4            boolean usann = false;
+5    
+6            if (sann != usann) {
+7                System.out.println("Testi i parë u ekzekutu!");
+8            } else {
+9                System.out.println("Diqka shkoi gabim!");
+10            }
+11            
+12            if (sann == usann) {
+13                System.out.println("Diqka shkoi gabim!");
+14            } else {
+15                System.out.println("Testi i dytë u ekzekutu!");
+16            }
+17        }
+18    }
 ```
 
 </p>
