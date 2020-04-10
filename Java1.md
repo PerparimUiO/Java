@@ -177,21 +177,21 @@ Emri i Skedarit: `Drejtkendesh.java`
 
 a) Ju duhet të shkruani një klasë Drejtkëndësh me përfaqësimin e të dhënave dhe metodat. Drejtkëndëshat kanë një gjerësi dhe një gjatësi, dhe ofrojnë ndërfaqet e mëposhtme:
 ```java
-class Rektangel {
+class Drejtkendesh {
 
-  public Rektangel (double gjatesia, double gjeresia) {   // Konstruktør
+  public Drejtkendesh (double gjatesia, double gjeresia) {   // Konstruktør
   }
 
-  public void rritjeGjatesise (int rritje) {  // Gjatësia siç përcaktohet
+  public void rritjeGjatesise (int rritje) {// Gjatësia siç përcaktohet
   }
 
-  public void rritjeGjeresise (int rritje) {  // Gjatësia siç përcaktohet
+  public void rritjeGjeresise (int rritje) {// Gjatësia siç përcaktohet
   }
 
-  public double sperfaqe() {     // Llogarit sipërfaqen
+  public double sperfaqe() {// Llogarit sipërfaqen
   }
 
-  public double perimetri() {   // Llogarit perimetrin
+  public double perimetri() {// Llogarit perimetrin
   }
 }
 ```
@@ -203,14 +203,79 @@ b) Shkruaj një program kryesor siç janë:
 - Rritni gjatësinë e njërit dhe gjerësinë e tjetrit
 - shtyp(shfaq) të dy perimetrat
 
+c) Zgjeroni klasën me metoda për të zvogëluar një objekt.
+
 <details><summary>💾 Løsningsforslag </summary>
 <p>
 
 ```java
-Motorsykkel m2 = new Motorsykkel("HELLO1");
-Motorsykkel m3 = new Motorsykkel("22TUUT");
-System.out.println("m2: " + m2.hentProduksjonsnummer()); //1
-System.out.println("m3: " + m3.hentProduksjonsnummer()); //2
+--------------------------------- A)--------------------------------------------------------
+class Rektangel{
+
+    double bredde;
+    double lengde;
+
+    public Rektangel(double l, double b){
+        lengde = l;
+        bredde = b;
+    }
+
+    public void oekLengde(int okning){
+        lengde = lengde + okning;
+        //lengde += okning;
+    }
+
+    public void oekBredde(int okning){
+        bredde = bredde + okning;
+        //lengde += okning;
+    }
+
+    public double areal(){
+        return bredde*lengde;
+    }
+
+    public double omkrets(){
+        return bredde*2 + lengde*2;
+    }
+}
+--------------------------------- B)--------------------------------------------------------
+class RektangelHovedprogram{
+
+    public static void main(String[] args) {
+
+        Rektangel en = new Rektangel(5,9);
+        Rektangel to = new Rektangel(10, 2);
+
+        System.out.println("Areal: " +  en.areal());
+        System.out.println("Areal: " + to.areal());
+
+        en.oekBredde(5);
+        to.oekLengde(2);
+
+        System.out.println("Omkrets: " + en.omkrets());
+        System.out.println("Omkrets: " + to.omkrets());
+    }
+}
+
+//           C)         Metodat e mëposhtme i përkasin klasës Drejtkëndësh.
+
+public void reduserBredde(int reduser){
+    if (bredde - reduser < 1){
+        System.out.println("Bredden kan ikke reduseres så mye");
+    }
+    else {
+        bredde = bredde - reduser;
+    }
+}
+
+public void reduserLengde(int reduser){
+    if (lengde - reduser < 1){
+        System.out.println("Lengden kan ikke reduseres så mye");
+    }
+    else {
+        lengde = lengde - reduser;
+    }
+}
 ```
 
 </p>
