@@ -136,7 +136,9 @@ class Sammenlign {
 
 ## Vlerat logjike
 
-a) Krijoni një program që përmban dy ndryshore boolean me emra të `vërtetë` dhe `pavërtetë`, dhe jepni vlerat e variablave të **true** dhe **false**. Shtypni përmbajtjen e një ndryshore duke përdorur komandën **`System.out.println`** dhe shikoni se si duket në kohën e funksionimit.
+Emri i Skedarit: `VleraLogjike.java`
+
+a) Krijoni një program që përmban dy ndryshore logjike `(boolean)` me emra të `saktë` dhe `pasaktë`, dhe jepni vlerat e variablave të **`true`** dhe **`false`**. Shtypni përmbajtjen e një ndryshore duke përdorur komandën **`System.out.println`** dhe shikoni se si duket në kohën e funksionimit.
 
 b) Zgjeroni programin tuaj me dy nëse testoni. E para është që të krahasohen dy variablat në mënyrë që rezultati të jetë i vërtetë me vlerat që i keni dhënë në a) dhe pastaj të shtypni "Testi i parë u ekzekutu!".
 
@@ -146,24 +148,24 @@ Testi i dytë është krahasimi i dy ndryshoreve në atë mënyrë që rezultati
 <p>
 
 ```java
-1  class BoolskeVerdier {
-2        public static void main(String[] args) {
-3            boolean sann = true;
-4            boolean usann = false;
-5    
-6            if (sann != usann) {
-7                System.out.println("Testi i parë u ekzekutu!");
-8            } else {
-9                System.out.println("Diqka shkoi gabim!");
-10            }
-11            
-12            if (sann == usann) {
-13                System.out.println("Diqka shkoi gabim!");
-14            } else {
-15                System.out.println("Testi i dytë u ekzekutu!");
-16            }
-17        }
-18    }
+class VleraLogjike {
+    public static void main(String[] args) {
+        boolean sakte = true;
+        boolean pasakte = false;
+
+        if (sakte != pasakte) {
+            System.out.println("Testi i parë u ekzekutu!");
+        } else {
+            System.out.println("Diqka shkoi gabim!");
+        }
+
+        if (sakte == pasakte) {
+            System.out.println("Diqka shkoi gabim!");
+        } else {
+            System.out.println("Testi i dytë u ekzekutu!");
+        }
+    }
+}
 ```
 
 </p>
