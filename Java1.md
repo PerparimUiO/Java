@@ -171,8 +171,37 @@ class VleraLogjike {
 </p>
 </details>
 
-### 2f
-Vi tenker oss at vi oppretter to `Motorsykkel`-objekter til. Hvilke produksjonsnummere vil de ha?
+## Drejtkëndësh
+
+Emri i Skedarit: `Drejtkendesh.java`
+
+a) Ju duhet të shkruani një klasë Drejtkëndësh me përfaqësimin e të dhënave dhe metodat. Drejtkëndëshat kanë një gjerësi dhe një gjatësi, dhe ofrojnë ndërfaqet e mëposhtme:
+```java
+class Rektangel {
+
+  public Rektangel (double gjatesia, double gjeresia) {   // Konstruktør
+  }
+
+  public void rritjeGjatesise (int rritje) {  // Gjatësia siç përcaktohet
+  }
+
+  public void rritjeGjeresise (int rritje) {  // Gjatësia siç përcaktohet
+  }
+
+  public double sperfaqe() {     // Llogarit sipërfaqen
+  }
+
+  public double perimetri() {   // Llogarit perimetrin
+  }
+}
+```
+
+b) Shkruaj një program kryesor siç janë:
+
+- krijon dy drejtkëndësha të madhësive opsionale
+- shtyp(shfaq) të dy zonat
+- Rritni gjatësinë e njërit dhe gjerësinë e tjetrit
+- shtyp(shfaq) të dy perimetrat
 
 <details><summary>💾 Løsningsforslag </summary>
 <p>
