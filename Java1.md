@@ -103,23 +103,29 @@ Rreshti 4: Mungojnë thonjëzat **"** përmbyllëse në varg brenda deklarimit t
 </p>
 </details>
 
-### 2d
-Skriv en klasse `MotorsykkelProgram.java`. Klassen skal inneholde en `main`-metode. Opprett et objekt av klassen `Motorsykkel` inne i `main`-metoden med et registreringsnummer.
+## Krahasimi i dy numrave
 
-Deretter skal dere skrive en `while`-løkke som skal gå 5 ganger. For hver gjennomkjøring av løkken skal dere kalle på `Motorsykkel`-objektets `kjoer`-metode med `10` som parameter.
+Emri i Skedarit: `Krahasim.java`
 
-<details><summary>💾 Løsningsforslag </summary>
+Krijoni një program që përmban dy ndryshore të numrave të plotë; `a` dhe `b`. Jepni vlerat e variablave sipas zgjedhjes suaj.
+
+Bëni një kontroll nëse `a` është më i madh se `b`. Shtypja në ekran ose `a` është më e madhe se `b` ose `a` nuk është më e madhe se `b`.
+
+Ndryshoni vlerat që keni vendosur për `a` dhe `b` dhe kontrolloni që rezultati të pritet në të gjitha rastet.
+
+<details><summary>💾 Zgjidhje alternative </summary>
 <p>
 
 ```java
-class MotorsykkelProgram {
+class Sammenlign {
     public static void main(String[] args) {
-        Motorsykkel m1 = new Motorsykkel("AB1234");
+        int a = 4;
+        int b = 2;
 
-        int t = 0;
-        while (t < 5) {
-            m1.kjoer(10);
-            t++;
+        if(a > b) {
+            System.out.println("a er storre enn b");
+        } else {
+            System.out.println("a er ikke storre enn b");
         }
     }
 }
