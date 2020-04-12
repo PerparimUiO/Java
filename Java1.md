@@ -380,48 +380,97 @@ class TestBaathus {
 </p>
 </details>
 
-```java
 
-```
 
 ***
-## 3a
+## Përdorimi i Konstruktorit(Projektuesit)
 
-Emri i Skedarit: `Drejtkendesh.java`
+Emri i Skedarit: `Person.java`
+
+Shikoni kodin e mëposhtëm. Modifikoni programin në mënyrë që variablat e shembullit të vendosen duke përdorur konstruktorin në vend të metodave.
+
+```java
+public class Person {
+    String emer; 
+    int mosha; 
+
+    public void jepEmer(String n){
+        emer = n; 
+    }   
+
+    public void jepMoshe(int a){
+        alder = a; 
+    }
+}
+```
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
     
 ```java
+public class Person {
+    String emer;
+    int mosha;
+
+    public Person(String n, int a){
+      emer = n;
+      mosha = a;
+    }
+}
+```
+
+</p>
+</details>
+
+
+***
+
+## while-loop (unaza) me numrues
+
+Emri i Skedarit: `Unaze.java`
+
+a) Shkruaj një program që përmban klasën "Unaze"
+
+b) Krijoni një ***`while-loop`***  që numëron nga `0` deri në `10`. 
+💡 Këshillë: ***`while`*** (....)
+
+c) Shtoni një shtypje të banakut që përdorni, në mënyrë që të bëhet shtypje sa herë që funksionon lak.
+
+Shtypje e pritur:
+
+```java
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+<details><summary>💾 Zgjidhje alternative </summary>
+<p>
+    
+```java
+class Unaze {
+    public static void main(String[] args) {
+        int numruesi = 0;
+
+        while(numruesi < 10) {
+            System.out.println(numruesi);
+            numruesi = numruesi + 1;
+        }
+    }
+}
 
 ```
 
 </p>
 </details>
 
-```java
-
-```
-
-***
-
-## 3a
-
-Emri i Skedarit: `Drejtkendesh.java`
-
-<details><summary>💾 Zgjidhje alternative </summary>
-<p>
-    
-```java
-
-```
-
-</p>
-</details>
-
-```java
-
-```
 
 ***
 
