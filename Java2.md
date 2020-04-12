@@ -153,17 +153,36 @@ class MindreStorre {
 
 ***
 
-## 3a
+## Gabime në ekzekutimit
+
+Gjeni `tre` gabime të ekzekutimit në kodin e programit vijues:
 
 ```java
+import java.util.Scanner;
+
+class HarKjoretidsfeil {
+    public static void main(String[] args) {
+        int x = 0;
+        int y = 0;
+        Scanner tast = new Scanner("System.in");
+
+        System.out.println("Vendosni dy numra");
+        x = Integer.parseInt(tast.nextLine());
+        x = Integer.parseInt(tast.nextLine());
+
+        System.out.println("Shuma e numrave është: " + x + y);
+    }
+}
 
 ```
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
     
-```java
+Rreshti 6: ***`System.in`*** është në `thonjëza`. Kjo do të kalojë përpilimin, por objekti Skaner do të lexojë më pas nga vargu ***`"System.in"`***, jo nga terminali.
 
-```
+Rreshtat 8 dhe 9: Lexon dy herë ndryshoren ***`x`***, ***`y`*** qëndron e paprekur.
+
+Rreshti 11: Rrotulloni një kllapa për (x + y) për të llogaritur shumën aktuale. Deklarata e shtypur do të shkruaj numrat në x dhe y njëra pas tjetrës.
 
 </p>
 </details>
