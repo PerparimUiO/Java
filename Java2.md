@@ -74,7 +74,7 @@ b) Modifikoni programin në mënyrë që programi të kontrollojë nëse ndryshi
 ```java
 import java.util.Scanner;
 
-class Produkt {
+class Produkti {
     public static void main(String[] args) {
         int x;
         int y;
@@ -98,16 +98,54 @@ Këtu mund të përdorni edhe `variabla të përkohshëm String` për të mbajtu
 
 ***
 
-## 3a
+## Më (e vogël se) ose më (e madhe se)
+
+Emri: MeEVogelMadhe.java
+
+a) Krijoni një program që merr një numër nga përdoruesi dhe shtypni nëse numri është më i vogël se ose më i madh se 10.
+
+b) Pastaj shtoni një provë tjetër për të kontrolluar nëse numri është më pak se ose më i madh se 20.
+
+c) Ndryshoni programin në mënyrë që përdoruesi të marrë vetëm një feedback për numrin e futur.
+
+Programi duhet të duket si ky gjatë ekzekutimit:
 
 ```java
+Vendosni një numër:
+> 13
+Numri është midis 10 dhe 20
 
+Vendosni një numër:
+> 9
+Numri është më pak se 10
+
+Vendosni një numër:
+> 22
+Numri është mbi 20
 ```
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
     
 ```java
+import java.util.Scanner;
 
+class MindreStorre {
+    public static void main(String[] args) {
+        int numri;
+        Scanner tast = new Scanner(System.in);
+
+        System.out.println("Vendosni një numër:");
+        numri = Integer.parseInt(tastatur.nextLine());
+
+        if(numri < 10) {
+            System.out.println("Numri është më pak se 10");
+        } else if(numri > 10 && tall < 20) {
+            System.out.println("Numri është midis 10 dhe 20");
+        } else {
+            System.out.println("Numri është mbi 20");
+        }
+    }
+}
 ```
 
 </p>
