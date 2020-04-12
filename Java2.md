@@ -52,15 +52,46 @@ Vini re se këtu ne ripërdorim ndryshoren e lexuar për të ngarkuar x dhe y. N
 
 ## Produkti i dy numrave
 
-```java
+Emri i skedarit: `Produkti.java`
 
+a) Krijoni një program që kërkon dhe lexon dy integrues. Programi do të llogarisë më pas produktin e dy numrave dhe do të shtypë përgjigjen.
+
+Këtu është një shembull i asaj se si mund të duket një program:
+
+```java
+Vendosni vlerën e x:
+> 5
+Vendosni vlerën e y:
+> 4
+Produkti i x dhe y është 20.
 ```
+
+b) Modifikoni programin në mënyrë që programi të kontrollojë nëse ndryshimi midis numrave është pozitiv apo negativ dhe shtyp një mesazh të përshtatshëm për përdoruesit.
+
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
     
 ```java
+import java.util.Scanner;
 
+class Produkt {
+    public static void main(String[] args) {
+        int x;
+        int y;
+        Scanner tast = new Scanner(System.in);
+
+        System.out.println("Vendosni vlerën e x:");
+        x = Integer.parseInt(tast.nextLine());
+
+        System.out.println("Vendosni vlerën e y:");
+        y = Integer.parseInt(tast.nextLine());
+
+        System.out.println("Produkti i x dhe y është: " + (x*y));
+    }
+}
 ```
+
+Këtu mund të përdorni edhe `variabla të përkohshëm String` për të mbajtur vlerat para `parseInt()`. Zgjidhja e mësipërme konverton vlerën e hyrë të llojit `String` në `int` drejtpërdrejt.
 
 </p>
 </details>
