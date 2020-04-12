@@ -281,8 +281,201 @@ public void reduktoGjatesise(int redukto){
 </p>
 </details>
 
+***
+
+## ShtëpiAnijësh
+
+Emri i Skedarit: `Anije.java`
+
+Në këtë detyrë ju do të krijoni një klasë që do të jetë në gjendje të përmbajë anije. Anijet përcaktohen duke përdorur klasën Anije:
+
+```java
+class Anije {
+
+    private static int sasiaEProduktit = 0;
+    private int nrProduktit;
+    private String marka;
+
+    public Baat(String mrk) {
+        nrProduktit = sasiaEProduktit;
+        sasiaEProduktit++;
+        marka = mrk;
+    }
+
+    public String merrInfo() {
+        return "Nr i prodhimit: " + nrProduktit + ", marka: " + marka;
+    }
+}
+
+```
+
+a) Shkruajeni klasën ShtëpiAnijësh. Një ShtëpiAnijësh duhet të përmbajë një listë (grup, array) të objekteve Anije. Projektuesi (Konstruktori) duhet të pranojë një numër të plotë të Vendeve `**(nrIVendeve)**` të përdorura për të përcaktuar madhësinë e listës së varkave.
+
+Ju duhet gjithashtu një metodë `**(vendosBrenda)**` që pranon një objekt `Anije` dhe përpiqet ta shtojë atë në listë (këtu do t'ju duhet një unazë!). Nëse nuk ka hapësirë për disa anije, metoda duhet të shtypë një mesazh gabimi.
+
+Për më tepër, ShtëpiAnijësh do të ketë një metodë për të `**(shtypAnije)**` që shtyp informacione për të gjitha anijet duke përdorur një `**(for-loop, unzë)**`.
+
+b) Shkruaj një klasë `**(TestoAnije)**` me një metodë kryesore `(main method)` ku krijon një varkë me 3 vende, si dhe disa anije. Mundohuni të vendosni një nga varkat në varkë dhe kontrolloni nëse programi ju tregon nëse përpiqeni të vendosni shumë në varr.
+
+<details><summary>💾 Zgjidhje alternative </summary>
+<p>
+    
+```java
+//                               a)
+class ShtepiAnijesh {
+    private Anije[] shtepiA;
+
+    public ShtepiAnijesh(int nrIVendeve) {
+        shtepiA = new Baat[nrIVendeve];
+    }
+
+    public void vendosBrenda(Anije njeAnije) {
+
+        boolean sattInn = false;
+        int teller = 0;
+
+        while (teller < baathus.length && sattInn == false) {
+            if (baathus[teller] == null) {
+                baathus[teller] = enBaat;
+                sattInn = true;
+            }
+
+            teller++;
+        }
+
+        if (sattInn != true) {
+            System.out.println("Det er ikke plass til flere baater!");
+        }
+
+    }
+
+    public void skrivBaater() {
+        for (int i = 0; i < baathus.length; i++) {
+            if (baathus[i] != null){
+                System.out.println(baathus[i].hentInfo());
+            }
+        }
+    }
+}
+//                               b)
+class TestBaathus {
+    public static void main(String[] args) {
+        Baathus baathus = new Baathus(3);
+
+        Baat b1 = new Baat("Triton");
+        Baat b2 = new Baat("Chaparral");
+        Baat b3 = new Baat("Mercury");
+        Baat b4 = new Baat("Mercury");
+
+        baathus.settInn(b1);
+        baathus.settInn(b2);
+        baathus.settInn(b3);
+        baathus.settInn(b4);
+
+        baathus.skrivBaater();
+    }
+}
+```
+
+</p>
+</details>
+
+```java
+
+```
+
+***
+## 3a
+
+Emri i Skedarit: `Drejtkendesh.java`
+
+<details><summary>💾 Zgjidhje alternative </summary>
+<p>
+    
+```java
+
+```
+
+</p>
+</details>
+
+```java
+
+```
 
 ***
 
-## Oppgave 3
-### 3a
+## 3a
+
+Emri i Skedarit: `Drejtkendesh.java`
+
+<details><summary>💾 Zgjidhje alternative </summary>
+<p>
+    
+```java
+
+```
+
+</p>
+</details>
+
+```java
+
+```
+
+***
+
+## 3a
+
+Emri i Skedarit: `Drejtkendesh.java`
+
+```java
+
+```
+<details><summary>💾 Zgjidhje alternative </summary>
+<p>
+    
+```java
+
+```
+
+</p>
+</details>
+
+***
+
+## 3a
+
+Emri i Skedarit: `Drejtkendesh.java`
+
+```java
+
+```
+<details><summary>💾 Zgjidhje alternative </summary>
+<p>
+    
+```java
+
+```
+
+</p>
+</details>
+
+***
+
+## 3a
+
+```java
+
+```
+<details><summary>💾 Zgjidhje alternative </summary>
+<p>
+    
+```java
+
+```
+
+</p>
+</details>
+
+***
