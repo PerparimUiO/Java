@@ -477,33 +477,30 @@ class Unaze {
 
 Plotësoni llojet e kthimit për metodat e mëposhtme:
 
-a)
 ```java
+a)
 [lloji i kthimit] unëNukKthejAsgjë ()
 }
 
 ```
-
-b)
 ```java
+b)
 [lloji i kthimit] shumaEDyNrTePlote(){
     int a = 2;
     int b = 3;
     return a + b;
 }
 ```
-
-c)
 ```java
+c)
 [lloji i kthimit] shumaEDyNrDecimal(){
    double a = 2.0;
    double b = 3.0;
    return a + b;
 }
 ```
-
-d)
 ```java
+d)
 [lloji i kthimit] emriIPerdoruesit(){
    Scanner keyboard = new Scanner(System.in);
    String emri = keyboard.nextLine();
@@ -513,8 +510,11 @@ d)
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
 a) void
+    
 b) int
+
 c) double
+
 d) String
 
 </p>
