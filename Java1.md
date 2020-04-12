@@ -467,26 +467,55 @@ class Unaze {
 }
 
 ```
-
 </p>
 </details>
 
 
 ***
 
-## 3a
+## Llojet e kthimit (Return Types)
 
-Emri i Skedarit: `Drejtkendesh.java`
+Plotësoni llojet e kthimit për metodat e mëposhtme:
 
+a)
 ```java
+[lloji i kthimit] unëNukKthejAsgjë ()
+}
 
+```
+
+b)
+```java
+[lloji i kthimit] shumaEDyNrTePlote(){
+    int a = 2;
+    int b = 3;
+    return a + b;
+}
+```
+
+c)
+```java
+[lloji i kthimit] shumaEDyNrDecimal(){
+   double a = 2.0;
+   double b = 3.0;
+   return a + b;
+}
+```
+
+d)
+```java
+[lloji i kthimit] emriIPerdoruesit(){
+   Scanner keyboard = new Scanner(System.in);
+   String emri = keyboard.nextLine();
+   return emri;
+}
 ```
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
-    
-```java
-
-```
+a) void
+b) int
+c) double
+d) String
 
 </p>
 </details>
