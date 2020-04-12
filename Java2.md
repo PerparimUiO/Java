@@ -20,7 +20,7 @@ Ju nuk duhet të mendoni se numri i parë mund të jetë më i vogël se i dyti.
 ```java
 import java.util.Scanner;
 
-class Differanse {
+class Diferensa {
     public static void main(String[] args) {
         // Deklaron variablat
         String lexo;
@@ -31,7 +31,7 @@ class Differanse {
         Scanner tast = new Scanner(System.in);
 
         System.out.println("Vendosni vlerën e x:");
-        lexo = tast.nextLine(); // azhurnon vlerën për të lexuar.
+        lexo = tast.nextLine(); // azhurnon(përditëso) vlerën për të lexuar.
         x = Integer.parseInt(lexo); // konverton nga String në int.
 
         System.out.println("Vendosni vlerën e y:");
@@ -50,7 +50,7 @@ Vini re se këtu ne ripërdorim ndryshoren e lexuar për të ngarkuar x dhe y. N
 
 ***
 
-## 3a
+## Produkti i dy numrave
 
 ```java
 
