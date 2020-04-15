@@ -16,7 +16,7 @@ b) Krijoni metodën AddQuizScore në mënyrë që të shtojë 1 në numrin e kui
 
 c) Krijoni një klasë të re duke përdorur një metodë kryesore.
 
-d) Krijoni tre objekte të reja Studenti, me emrin "Joakim", "Kristin" dhe "Dita".
+d) Krijoni tre objekte të reja Studenti, me emrin "Ajan", "Ajana" dhe "Ti".
 
 e) Pastaj thirrni metodën AddQuizScore për të gjithë studentët të paktën dy herë secila.
 
