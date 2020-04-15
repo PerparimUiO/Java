@@ -187,21 +187,3 @@ Rreshti 11: Rrotulloni një kllapa për (x + y) për të llogaritur shumën aktu
 </p>
 </details>
 
-***
-
-## 3a
-
-```java
-
-```
-<details><summary>💾 Zgjidhje alternative </summary>
-<p>
-    
-```java
-
-```
-
-</p>
-</details>
-
-***
