@@ -1,5 +1,7 @@
 ## Studentët dhe rezultatet e kuizit
 
+Emri i Skedarit: `Student.java`
+
 a) Implementimi i një klase 'Studenti'. Një student ka një emër, një rezultat të përgjithshëm kuizi dhe një numër kuizesh në të cilat ka marrë pjesë studenti. Këto vlera duhet të shprehen në konstruktor.
 
 Klasa duhet të ketë metodat e mëposhtme (përveç konstruktorit):
@@ -37,7 +39,7 @@ class Student{
   }
 
   public String merrEmrin(){
-    return navn;
+    return emri;
   }
 
   public void shtoRezNeKuiz(int rezultati){
