@@ -598,12 +598,18 @@ It can be declared as a string literal like this:
 
 (The \n escape sequence denotes a “newline” character that causes subsequent
 characters to be printed on a new line.) Do the same for the letters E , L , and O . Then
-write the message
+write the message:
+
 H
+
 E
+
 L
+
 L
+
 O
+
 in large letters.
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -682,9 +688,13 @@ Gauss in 1800:
 11. `Divide h - m + r + n + 19 by 32 to get a remainder p . Ignore the quotient.`
 
 Then Easter falls on day p of month n . For example, if y is 2001 :
+
 a = 6           	h = 18              n = 4
+
 b = 20, c = 1   	j = 0, k = 1        p = 15
+
 d = 5, e = 0    	m = 0
+
 g = 6           	r = 6
 
 Therefore, in 2001, Easter Sun­day fell on April 15. Write a program that prompts the
