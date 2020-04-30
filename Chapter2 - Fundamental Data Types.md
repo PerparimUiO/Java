@@ -474,7 +474,9 @@ public class P2_14 {
 
 </p>
 </details>
+
 ***
+
 ## Printing a grid Write a program that prints the grid of a tic-tac-toe game.
 
 Of course, you could simply write seven statements of the form
@@ -548,6 +550,7 @@ public class P2_16 {
  `Please enter the second time: 1730`
  
 8 hours 30 minutes
+
 Extra credit if you can deal with the case where the first time is later than the second:
 
  `Please enter the first time: 1730`
@@ -584,12 +587,14 @@ public class P2_17 {
 ```
 </p>
 </details>
+
 ***
 
 ## Writing large letters. A large letter H can be produced like this:
 
 It can be declared as a string literal like this:
-final string LETTER_H = "*   *\n*   *\n*****\n*   *\n*   *\n";
+
+`final string LETTER_H = "*   *\n*   *\n*****\n*   *\n*   *\n";`
 
 (The \n escape sequence denotes a “newline” character that causes subsequent
 characters to be printed on a new line.) Do the same for the letters E , L , and O . Then
@@ -623,7 +628,9 @@ public class P2_18 {
 
 </p>
 </details>
+
 ***
+
 ## Write a program that transforms numbers `1 ,  2 ,  3 , …,  12` into the corresponding month names `January ,  February ,March , …,  December` . Hint: Make a very long string  "January February March ..." , in which you add spaces such that each month name has the `same length`. Then use substring to extract the month you want.
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -645,7 +652,9 @@ public class P2_19 {
 ```
 </p>
 </details>
+
 ***
+
 ## Easter Sunday is the first Sun­day after the first full moon of spring. To compute
 the date, you can use this algorithm, invented by the mathe­matician Carl Friedrich
 Gauss in 1800:
@@ -673,10 +682,10 @@ Gauss in 1800:
 11. `Divide h - m + r + n + 19 by 32 to get a remainder p . Ignore the quotient.`
 
 Then Easter falls on day p of month n . For example, if y is 2001 :
-a = 6           h = 18              n = 4
-b = 20, c = 1   j = 0, k = 1        p = 15
-d = 5, e = 0    m = 0
-g = 6           r = 6
+a = 6           	h = 18              n = 4
+b = 20, c = 1   	j = 0, k = 1        p = 15
+d = 5, e = 0    	m = 0
+g = 6           	r = 6
 
 Therefore, in 2001, Easter Sun­day fell on April 15. Write a program that prompts the
 user for a year and prints out the month and day of Easter Sunday.
@@ -712,7 +721,9 @@ public class P2_21 {
 
 </p>
 </details>
+
 ***
+
 ## The following pseudocode describes how a bookstore computes the price of an order from the total price and the number of the books that were ordered.
 
 `Read the total book price and the number of books.
@@ -745,7 +756,9 @@ public class P2_22 {
 ```
 </p>
 </details>
+
 ***
+
 ## The following pseudocode describes how to turn a string containing a ten-digit phone number (such as "4155551212" ) into a more readable string with parentheses and dashes, like this: "(415) 555-1212".
 
 `Take the substring consisting of the first three characters and surround it with "(" and ") ". This is the area code.
