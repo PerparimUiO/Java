@@ -1,11 +1,15 @@
 **Java Programming Exercises, Practice, Solution**
 | Chapters | Description |
 | --- | --- |
-|2 Fundamental Data Types | Variables, Arithmetic, Input and Output, Strings |
-|3 Decisons | The if Statement, Comparing Numbers and Strings,Multiple Alternatives,Nested Branches,Boolean Variables and Operators |
-|3 Decisons |  |
-|3 Decisons |  |
-|3 Decisons |  |
-|3 Decisons |  |
+|2- Fundamental Data Types | Variables, Arithmetic, Input and Output, Strings |
+|3- Decisons | The `if` Statement, Comparing Numbers and Strings, Multiple Alternatives, Nested Branches, Boolean Variables and Operators |
+|4- Loops |The `while` Loop, The `for` Loop, The `do` Loop, `Nested` Loops  |
+|5- Methods |Methods as Black Boxes, Implementing Methods, Parameter Passing, Return Values, Methods Without Return Values, Variable Scope, Recursive Methods (Optional)|
+|6- Arrays and Array lists| Arrays, The Enhanced for Loop, Common Array Algorithms, Using Arrays with Methods, Two-Dimensional Arrays, Array Lists|
+|7- Input/output and exception handling|Reading and Writing Text Files, Text Input and Output, Command Line Arguments, Exception Handling|
+|8- Objects and Classes  | Inheritance Hierarchies, Implementing Subclasses, Overriding Methods, Polymorphism, Object: The Cosmic Superclass, Interface Types|
+|12- Object-Oriented Design  | Classes and Their Responsibilities, Relationships Between Classes, Packages| 
+|13- RECURSION | Triangle Numbers Revisited, Recursive Helper Methods, The Efficiency of Recursion, Permutations, Mutual Recursion, Backtracking|
+
 
 
