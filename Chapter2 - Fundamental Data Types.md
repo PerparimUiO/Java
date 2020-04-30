@@ -302,10 +302,15 @@ public class P2_9 {
 Your pro gram’s inputs should be:
 
 -`The cost of a new car`
+
 -`The estimated miles driven per year`
+
 -`The estimated gas price`
+
 -`The efficiency in miles per gallon`
+
 -`The estimated re-sale value after 5 years`
+
 Compute the total cost of owning the car for five years. 
 (For simplicity, we will not take the cost of financing into account.) 
 Obtain realistic prices for a new and used hybrid and a comparable car from the Web.
@@ -381,7 +386,7 @@ public class P2_11 {
 
 ***
 
-### File names and extensions. Write a program that prompts the user for the drive letter ( C ), the path ( \Windows\System ), the file name ( Readme ), and the extension ( txt ). Then print the complete file name  C:\Windows\System\Readme.txt . (If you use UNIX or a Macintosh, skip the drive name and use  / instead of \ to separate directories.)
+## File names and extensions. Write a program that prompts the user for the drive letter ( C ), the path ( \Windows\System ), the file name ( Readme ), and the extension ( txt ). Then print the complete file name  C:\Windows\System\Readme.txt . (If you use UNIX or a Macintosh, skip the drive name and use  / instead of \ to separate directories.)
 
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -412,7 +417,7 @@ public class P2_12 {
 
 ***
 
-### Write a program that reads a number between 1,000 and 999,999 from the user, where the user enters a comma in the input. Then print the number without a comma. Here is a sample dialog:
+## Write a program that reads a number between 1,000 and 999,999 from the user, where the user enters a comma in the input. Then print the number without a comma. Here is a sample dialog:
 
 `Please enter an integer between 10,000 and 99,999: 23,456`
      23456
@@ -446,6 +451,7 @@ public class P2_13 {
 Here is a sample dialog:
 
    `Please enter an integer between 1000 and 999999: 23456`
+   
    23,456
    
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -469,7 +475,7 @@ public class P2_14 {
 </p>
 </details>
 ***
-### `Printing a grid` Write a program that prints the grid of a tic-tac-toe game.
+## Printing a grid Write a program that prints the grid of a tic-tac-toe game.
 
 Of course, you could simply write seven statements of the form
 
@@ -538,12 +544,17 @@ public class P2_16 {
 ## Write a program that reads two times in military format (0900, 1730) and prints the number of hours and minutes between the two times. Here is a sample run. User input is in color.
 
  `Please enter the first time: 0900`
+ 
  `Please enter the second time: 1730`
-**`8 hours 30 minutes`**
+ 
+8 hours 30 minutes
 Extra credit if you can deal with the case where the first time is later than the second:
+
  `Please enter the first time: 1730`
+ 
  `Please enter the second time: 0900`
- **`15 hours 30 minutes`**
+ 
+15 hours 30 minutes
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -576,11 +587,7 @@ public class P2_17 {
 ***
 
 ## Writing large letters. A large letter H can be produced like this:
-*   *
-*   *
-*****
-*   *
-*   *
+
 It can be declared as a string literal like this:
 final string LETTER_H = "*   *\n*   *\n*****\n*   *\n*   *\n";
 
@@ -624,8 +631,6 @@ public class P2_18 {
 
 ```java
 import java.util.Scanner;
-
-
 public class P2_19 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -644,17 +649,29 @@ public class P2_19 {
 ## Easter Sunday is the first Sun­day after the first full moon of spring. To compute
 the date, you can use this algorithm, invented by the mathe­matician Carl Friedrich
 Gauss in 1800:
+
 1. `Let y be the year (such as 1800 or 2001).`
+
 2. `Divide y by 19 and call the remainder a . Ignore the quotient.`
+
 3. `Divide y by 100 to get a quotient b and a remainder c .`
+
 4. `Divide b by 4 to get a quotient d and a remainder e .`
+
 5. `Divide 8 * b + 13 by 25 to get a quotient g . Ignore the remainder.`
+
 6. `Divide 19 * a + b - d - g + 15 by 30 to get a remainder h . Ignore the quotient.`
+
 7. `Divide c by 4 to get a quotient j and a remainder k .`
+
 8. `Divide a + 11 * h by 319 to get a quotient m . Ignore the remainder.`
-9. `Divide 2 * e + 2 * j - k - h + m + 32 by 7 to get a remainder r.Ignore the quotient.` 
+
+9. `Divide 2 * e + 2 * j - k - h + m + 32 by 7 to get a remainder r.Ignore the quotient.`
+
 10. `Divide h - m + r + 90 by 25 to get a quotient n . Ignore the remainder.`
+
 11. `Divide h - m + r + n + 19 by 32 to get a remainder p . Ignore the quotient.`
+
 Then Easter falls on day p of month n . For example, if y is 2001 :
 a = 6           h = 18              n = 4
 b = 20, c = 1   j = 0, k = 1        p = 15
@@ -697,11 +714,13 @@ public class P2_21 {
 </details>
 ***
 ## The following pseudocode describes how a bookstore computes the price of an order from the total price and the number of the books that were ordered.
-**`Read the total book price and the number of books.
+
+`Read the total book price and the number of books.
   Compute the tax (7.5 percent of the total book price).
   Compute the shipping charge ($2 per book).
   The price of the order is the sum of the total book price, the tax, and the shipping charge.
-  Print the price of the order.`**
+  Print the price of the order.`
+  
 Translate this pseudocode into a Java program.
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -727,9 +746,11 @@ public class P2_22 {
 </p>
 </details>
 ***
-## The following pseudocode describes how to turn a string containing a ten-digit phone number (such as "4155551212" ) into a more readable string with parentheses and dashes, like this: "(415) 555-1212" .
-**`Take the substring consisting of the first three characters and surround it with "(" and ") ". This is the area code.
-Concatenate the area code, the substring consisting of the next three characters, a hyphen, and the substring consisting of the last four characters. This is the formatted number.`**
+## The following pseudocode describes how to turn a string containing a ten-digit phone number (such as "4155551212" ) into a more readable string with parentheses and dashes, like this: "(415) 555-1212".
+
+`Take the substring consisting of the first three characters and surround it with "(" and ") ". This is the area code.
+Concatenate the area code, the substring consisting of the next three characters, a hyphen, and the substring consisting of the last four characters. This is the formatted number.`
+
 Translate this pseudocode into a Java program that reads a telephone number into a
 string variable, com­putes the formatted number, and prints it.
 
