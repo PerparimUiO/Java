@@ -23,7 +23,7 @@ public class P3_01 {
 </p>
 </details>
 
-## Write a program that reads a floating ­point number and prints `zero` if the number is zero. Otherwise, print `positive` or `negative`. Add `small` if the absolute value   of the number is less than 1, or `large` if it exceeds 1,000,000. Note: my solutions aim to test my knowledge of the ternary operator. You can always solve the problem with a normal if/else if/else statement
+## Write a program that reads a floating point number and prints `zero` if the number is zero. Otherwise, print `positive` or `negative`. Add `small` if the absolute value   of the number is less than 1, or `large` if it exceeds 1,000,000. Note: my solutions aim to test my knowledge of the ternary operator. You can always solve the problem with a normal if/else if/else statement
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -403,19 +403,81 @@ public class P3_10 {
 </p>
 </details>
 
-## Informacione personale
+## Add error handling to Exercise P3.10. If the user provides an invalid unit for the altitude, print an error message and end the program.
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
 
 ```java
+import java.util.Scanner;
+public class P3_11 {
+	public static void main(String[] args) {
+		final int FREEZE_CELSIUS = 0;
+		final int FREEZE_FAHRENHEIT = 32;
+		double boil_celsius = 100;
+		double boil_fahrenheit = 212;
 
+		Scanner input = new Scanner(System.in);
+		System.out.print("Temperature type (C/F): ");
+		String temp_type = input.next();
+		System.out.print("Temperature value: ");
+		double temp_value = input.nextDouble();
+		System.out.print("Altitude type (M/F): ");
+		String alt_type = input.next();
+		System.out.print("Altitude value: ");
+		double alt_value = input.nextDouble();
+		input.close();
+
+		if (temp_type.equals("C")) {
+			if (alt_type.equals("M")) {
+				boil_celsius -= alt_value / 300;
+			} else if (alt_type.equals("F")) {
+				boil_celsius -= alt_value / 1000;
+			} else {
+				System.out.println("Invalid unit for altitude.");
+				return;
+			}
+			if (temp_value <= FREEZE_CELSIUS) {
+				System.out.println("Solid");
+			} else if (temp_value >= boil_celsius) {
+				System.out.println("Gas");
+			} else {
+				System.out.println("Liquid");
+			}
+		} else if (temp_type.equals("F")) {
+			if (alt_type.equals("M")) {
+				boil_fahrenheit -= alt_value / 300;
+			} else if (alt_type.equals("F")) {
+				boil_fahrenheit -= alt_value / 1000;
+			} else {
+				System.out.println("Invalid unit for altitude.");
+				return;
+			}
+			if (temp_value <= FREEZE_FAHRENHEIT) {
+				System.out.println("Solid");
+			} else if (temp_value >= boil_fahrenheit) {
+				System.out.println("Gas");
+			} else {
+				System.out.println("Solid");
+			}
+		} else {
+			System.out.println("Invalid temperature unit.");
+			return;
+		}
+	}
+}
 ```
 
 </p>
 </details>
 
-## Informacione personale
+## Write a program 
+that translates a letter grade into a number grade. Letter grades are  A, B, C, D, and F, possibly followed by + or –. Their numeric values are 4, 3, 2, 1, and  0. There is no F+ or F–. A + increases the numeric value by 0.3, a – decreases it by 0.3.
+ However, an A+ has value 4.0.
+ 
+     `Enter a letter grade: B-`
+     
+     `The numeric value is 2.7.`
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
