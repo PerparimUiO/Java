@@ -47,8 +47,6 @@ public class P2_2 {
 ```
 </p>
 </details>
-💡
-
 
 ***
 
@@ -78,29 +76,20 @@ public class P2_3 {
 
 </p>
 </details>
-💡
 
-***
-
-## Emri i klasës në Java 
-
-<details><summary>💾 Zgjidhje alternative </summary>
-<p>
- 
-
-</p>
-</details>
 
 ***
 
 ## Write a program that prompts the user for two integers and then prints
- • `The sum`
- • `The difference`
- • `The product`
- • `The average`
- • `The distance (absolute value of the difference)`
- • `The maximum (the larger of the two)`
- • `The minimum (the smaller of the two)`
+
+ - `The sum`
+ - `The difference`
+ - `The product`
+ - `The average`
+ - `The distance (absolute value of the difference)`
+ - `The maximum (the larger of the two)`
+ - `The minimum (the smaller of the two)`
+ 
  💡 Hint: The max and min functions are declared in the Math class.
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -141,7 +130,6 @@ public class P2_4 {
 
 ## Enhance the output of P2_4.java so that the numbers are properly aligned.
 
-
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
 
@@ -174,7 +162,9 @@ public class P2_5 {
 ```
 </p>
 </details>
+
 ***
+
 ## Write a program that prompts the user for a measurement in meters and then converts it to miles, feet, and inches.
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -206,8 +196,10 @@ public class P2_6 {
 ***
 
 ## Write a program that prompts the user for a radius and then prints
- • `The area and circumference of a circle with that radius`
- • `The volume and surface area of a sphere with that radius`
+
+- `The area and circumference of a circle with that radius`
+
+- `The volume and surface area of a sphere with that radius`
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -232,11 +224,15 @@ public class P2_7 {
 
 </p>
 </details>
+
 ***
+
 ## Write a program that asks the user for the lengths of the sides of a rectangle. 
 Then print:
- • `The area and perimeter of the rectangle`
- • `The length of the diagonal`
+
+- `The area and perimeter of the rectangle`
+
+- `The length of the diagonal`
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -261,7 +257,9 @@ public class P2_8 {
 ```
 </p>
 </details>
+
 ***
+
 ## Improve the program discussed in How To 2.1 to allow input of quarters in addition to bills
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -296,14 +294,18 @@ public class P2_9 {
 
 </p>
 </details>
+
 ***
+
 ## Write a program that helps a person decide whether to buy a hybrid car. 
+
 Your pro gram’s inputs should be:
- • `The cost of a new car`
- • `The estimated miles driven per year`
- • `The estimated gas price`
- • `The efficiency in miles per gallon`
- • `The estimated re-sale value after 5 years`
+
+-`The cost of a new car`
+-`The estimated miles driven per year`
+-`The estimated gas price`
+-`The efficiency in miles per gallon`
+-`The estimated re-sale value after 5 years`
 Compute the total cost of owning the car for five years. 
 (For simplicity, we will not take the cost of financing into account.) 
 Obtain realistic prices for a new and used hybrid and a comparable car from the Web.
@@ -341,9 +343,13 @@ public class P2_10 {
 ***
 
 ## Write a program that asks the user to input
- • `The number of gallons of gas in the tank`
- • `The fuel efficiency in miles per gallon`
- • `The price of gas per gallon`
+
+- `The number of gallons of gas in the tank`
+
+- `The fuel efficiency in miles per gallon`
+
+- `The price of gas per gallon`
+
 Then print the cost per 100 miles and how far the car can go with the gas in the tank
 
 
@@ -372,9 +378,10 @@ public class P2_11 {
 
 </p>
 </details>
+
 ***
 
-## File names and extensions. Write a program that prompts the user for the drive letter ( C ), the path ( \Windows\System ), the file name ( Readme ), and the extension ( txt ). Then print the complete file name  C:\Windows\System\Readme.txt . (If you use UNIX or a Macintosh, skip the drive name and use  / instead of \ to separate directories.)
+### File names and extensions. Write a program that prompts the user for the drive letter ( C ), the path ( \Windows\System ), the file name ( Readme ), and the extension ( txt ). Then print the complete file name  C:\Windows\System\Readme.txt . (If you use UNIX or a Macintosh, skip the drive name and use  / instead of \ to separate directories.)
 
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -402,11 +409,14 @@ public class P2_12 {
 
 </p>
 </details>
+
 ***
 
-## Write a program that reads a number between 1,000 and 999,999 from the user, where the user enters a comma in the input. Then print the number without a comma. Here is a sample dialog:
+### Write a program that reads a number between 1,000 and 999,999 from the user, where the user enters a comma in the input. Then print the number without a comma. Here is a sample dialog:
+
 `Please enter an integer between 10,000 and 99,999: 23,456`
      23456
+     
 💡 Hint: Read the input as a string. Measure the length of the string. Suppose it contains n characters. Then extract substrings consisting of the first n - 4 characters and the last three characters
 
 
@@ -429,12 +439,15 @@ public class P2_13 {
 ```
 </p>
 </details>
+
 ***
 
 ## Write a program that reads a number between 1,000 and 999,999 from the user and prints it with a comma separating the thousands.
 Here is a sample dialog:
+
    `Please enter an integer between 1000 and 999999: 23456`
    23,456
+   
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
 
@@ -456,16 +469,12 @@ public class P2_14 {
 </p>
 </details>
 ***
-## `Printing a grid` Write a program that prints the grid of a tic-tac-toe game.
-+--+--+--+
-|  |  |  |
-+--+--+--+
-|  |  |  |
-+--+--+--+
-|  |  |  |
-+--+--+--+
+### `Printing a grid` Write a program that prints the grid of a tic-tac-toe game.
+
 Of course, you could simply write seven statements of the form
+
 **`System.out.println("+--+--+--+");`**
+
 You should do it the smart way, though. Declare string variables to hold two kinds
 of patterns: a comb-shaped pattern and the bottom line. Print the comb three times
 and the bottom line once.
@@ -486,10 +495,15 @@ public class P2_15 {
 ```
 </p>
 </details>
+
 ***
+
 ## Write a program that reads a five-digit positive integer and breaks it into a sequence of individual digits. 
+
 `For example, the input 16384 is displayed as:`
+
 **`1 6 3 8 4`**
+
 You may assume that the input has no more than five digits and is not negative.
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -518,9 +532,11 @@ public class P2_16 {
 
 </p>
 </details>
+
 ***
 
 ## Write a program that reads two times in military format (0900, 1730) and prints the number of hours and minutes between the two times. Here is a sample run. User input is in color.
+
  `Please enter the first time: 0900`
  `Please enter the second time: 1730`
 **`8 hours 30 minutes`**
