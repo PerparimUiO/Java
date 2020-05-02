@@ -27,7 +27,7 @@ public class P2_1 {
 
 ***
 
-## Write a program that computes and displays the perimeter of a letter­size (8.5 × 11 inch) sheet of paper and the length of its diagonal.
+### Write a program that computes and displays the perimeter of a letter­size (8.5 × 11 inch) sheet of paper and the length of its diagonal.
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -50,7 +50,7 @@ public class P2_2 {
 
 ***
 
-## Write a program that reads a number and displays the square, cube, and fourth power. Use the  Math.pow method only for the fourth power.
+### Write a program that reads a number and displays the square, cube, and fourth power. Use the  Math.pow method only for the fourth power.
 
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -80,7 +80,7 @@ public class P2_3 {
 
 ***
 
-## Write a program that prompts the user for two integers and then prints
+### Write a program that prompts the user for two integers and then prints
 
  - `The sum`
  - `The difference`
@@ -128,7 +128,7 @@ public class P2_4 {
 
 ***
 
-## Enhance the output of P2_4.java so that the numbers are properly aligned.
+### Enhance the output of P2_4.java so that the numbers are properly aligned.
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -165,7 +165,7 @@ public class P2_5 {
 
 ***
 
-## Write a program that prompts the user for a measurement in meters and then converts it to miles, feet, and inches.
+### Write a program that prompts the user for a measurement in meters and then converts it to miles, feet, and inches.
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -195,7 +195,7 @@ public class P2_6 {
 
 ***
 
-## Write a program that prompts the user for a radius and then prints
+### Write a program that prompts the user for a radius and then prints
 
 - `The area and circumference of a circle with that radius`
 
@@ -227,7 +227,7 @@ public class P2_7 {
 
 ***
 
-## Write a program that asks the user for the lengths of the sides of a rectangle. 
+### Write a program that asks the user for the lengths of the sides of a rectangle. 
 Then print:
 
 - `The area and perimeter of the rectangle`
@@ -260,7 +260,7 @@ public class P2_8 {
 
 ***
 
-## Improve the program discussed in How To 2.1 to allow input of quarters in addition to bills
+### Improve the program discussed in How To 2.1 to allow input of quarters in addition to bills
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -297,7 +297,7 @@ public class P2_9 {
 
 ***
 
-## Write a program that helps a person decide whether to buy a hybrid car. 
+### Write a program that helps a person decide whether to buy a hybrid car. 
 
 Your pro gram’s inputs should be:
 
@@ -347,7 +347,7 @@ public class P2_10 {
 
 ***
 
-## Write a program that asks the user to input
+### Write a program that asks the user to input
 
 - `The number of gallons of gas in the tank`
 
@@ -386,7 +386,7 @@ public class P2_11 {
 
 ***
 
-## File names and extensions. Write a program that prompts the user for the drive letter ( C ), the path ( \Windows\System ), the file name ( Readme ), and the extension ( txt ). Then print the complete file name  C:\Windows\System\Readme.txt . (If you use UNIX or a Macintosh, skip the drive name and use  / instead of \ to separate directories.)
+### File names and extensions. Write a program that prompts the user for the drive letter ( C ), the path ( \Windows\System ), the file name ( Readme ), and the extension ( txt ). Then print the complete file name  C:\Windows\System\Readme.txt . (If you use UNIX or a Macintosh, skip the drive name and use  / instead of \ to separate directories.)
 
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -417,7 +417,7 @@ public class P2_12 {
 
 ***
 
-## Write a program that reads a number between 1,000 and 999,999 from the user, where the user enters a comma in the input. Then print the number without a comma. Here is a sample dialog:
+### Write a program that reads a number between 1,000 and 999,999 from the user, where the user enters a comma in the input. Then print the number without a comma. Here is a sample dialog:
 
 `Please enter an integer between 10,000 and 99,999: 23,456`
      23456
@@ -447,7 +447,7 @@ public class P2_13 {
 
 ***
 
-## Write a program that reads a number between 1,000 and 999,999 from the user and prints it with a comma separating the thousands.
+### Write a program that reads a number between 1,000 and 999,999 from the user and prints it with a comma separating the thousands.
 Here is a sample dialog:
 
    `Please enter an integer between 1000 and 999999: 23456`
@@ -477,7 +477,7 @@ public class P2_14 {
 
 ***
 
-## Printing a grid Write a program that prints the grid of a tic-tac-toe game.
+### Printing a grid Write a program that prints the grid of a tic-tac-toe game.
 
 Of course, you could simply write seven statements of the form
 
@@ -506,7 +506,7 @@ public class P2_15 {
 
 ***
 
-## Write a program that reads a five-digit positive integer and breaks it into a sequence of individual digits. 
+### Write a program that reads a five-digit positive integer and breaks it into a sequence of individual digits. 
 
 `For example, the input 16384 is displayed as:`
 
@@ -543,7 +543,7 @@ public class P2_16 {
 
 ***
 
-## Write a program that reads two times in military format (0900, 1730) and prints the number of hours and minutes between the two times. Here is a sample run. User input is in color.
+### Write a program that reads two times in military format (0900, 1730) and prints the number of hours and minutes between the two times. Here is a sample run. User input is in color.
 
  `Please enter the first time: 0900`
  
@@ -590,7 +590,7 @@ public class P2_17 {
 
 ***
 
-## Writing large letters. A large letter H can be produced like this:
+### Writing large letters. A large letter H can be produced like this:
 
 It can be declared as a string literal like this:
 
@@ -637,7 +637,7 @@ public class P2_18 {
 
 ***
 
-## Write a program that transforms numbers `1 ,  2 ,  3 , …,  12` into the corresponding month names `January ,  February ,March , …,  December` . Hint: Make a very long string  "January February March ..." , in which you add spaces such that each month name has the `same length`. Then use substring to extract the month you want.
+### Write a program that transforms numbers `1 ,  2 ,  3 , …,  12` into the corresponding month names `January ,  February ,March , …,  December` . Hint: Make a very long string  "January February March ..." , in which you add spaces such that each month name has the `same length`. Then use substring to extract the month you want.
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -661,7 +661,7 @@ public class P2_19 {
 
 ***
 
-## Easter Sunday is the first Sun­day after the first full moon of spring. To compute
+### Easter Sunday is the first Sun­day after the first full moon of spring. To compute
 the date, you can use this algorithm, invented by the mathe­matician Carl Friedrich
 Gauss in 1800:
 
@@ -734,7 +734,7 @@ public class P2_21 {
 
 ***
 
-## The following pseudocode describes how a bookstore computes the price of an order from the total price and the number of the books that were ordered.
+### The following pseudocode describes how a bookstore computes the price of an order from the total price and the number of the books that were ordered.
 
 `Read the total book price and the number of books.
   Compute the tax (7.5 percent of the total book price).
@@ -769,7 +769,7 @@ public class P2_22 {
 
 ***
 
-## The following pseudocode describes how to turn a string containing a ten-digit phone number (such as "4155551212" ) into a more readable string with parentheses and dashes, like this: "(415) 555-1212".
+### The following pseudocode describes how to turn a string containing a ten-digit phone number (such as "4155551212" ) into a more readable string with parentheses and dashes, like this: "(415) 555-1212".
 
 `Take the substring consisting of the first three characters and surround it with "(" and ") ". This is the area code.
 Concatenate the area code, the substring consisting of the next three characters, a hyphen, and the substring consisting of the last four characters. This is the formatted number.`
