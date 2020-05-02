@@ -260,21 +260,8 @@ public class P4_03E {
 </p>
 </details>
 
-### Informacione personale
 
-
-
-<details><summary>💾 Zgjidhje alternative </summary>
-<p>
-
-```java
-
-``` 
-
-</p>
-</details>
-
-### Complete the program in How To 4.1 on page 182. Your program should read twelve temperature values and print the month with the highest temperature.
+###  Complete the program in How To 4.1 on page 182. Your program should read twelve temperature values and print the month with the highest temperature.
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -310,8 +297,6 @@ public class P4_04 {
      • the smallest of the values.
      • the largest of the values.
      • the range, that is the difference between the smallest and largest.
-
-
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -369,7 +354,6 @@ public class P4_05 {
          Else if the value is less than the minimum
              Set the minimum to the value.
      Print the minimum.
-
 
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -443,7 +427,7 @@ public class P4_07 {
 </p>
 </details>
 
-### Write a program that reads a word and prints each character of the word on a separate line. For example, if the user provides the input  "Perparim" , the program prints:
+###  Write a program that reads a word and prints each character of the word on a separate line. For example, if the user provides the input  "Perparim" , the program prints:
 
      P
      e
@@ -475,7 +459,7 @@ public class P4_08 {
 </p>
 </details>
 
-### Write a program that reads a word and prints the word in reverse. For example, if the  user provides the input  "Perparim" , the program prints:
+###  Write a program that reads a word and prints the word in reverse. For example, if the  user provides the input  "Perparim" , the program prints:
 
      mirapreP   
 
@@ -500,7 +484,7 @@ public class P4_09 {
 </p>
 </details>
 
-### Write a program that reads a word and prints the number of vowels in the word. For this exercise, assume that  `a e i o u y` are vowels. For example, if the user provides the input "Harry", the program prints  `2 vowels`.
+###  Write a program that reads a word and prints the number of vowels in the word. For this exercise, assume that  `a e i o u y` are vowels. For example, if the user provides the input "Harry", the program prints  `2 vowels`.
    
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -530,14 +514,13 @@ public class P4_10 {
 </p>
 </details>
 
-### Write a program that reads a word and prints the number of syllables in the word.  For this exercise, assume that syllables are determined as follows: Each sequence of  adjacent vowels  `a e i o u y`, except for the last  e in a word, is a syllable. However, if  that algorithm yields a count of 0, change it to 1. For example,
+###  Write a program that reads a word and prints the number of syllables in the word.  For this exercise, assume that syllables are determined as follows: Each sequence of  adjacent vowels  `a e i o u y`, except for the last  e in a word, is a syllable. However, if  that algorithm yields a count of 0, change it to 1. For example,
 
      Word 	Syllables
      Harry 	2
      hairy 	2
      hare 	1
-     the  	1
-   
+     the  	1   
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
