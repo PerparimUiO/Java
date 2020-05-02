@@ -1,5 +1,5 @@
 💡 
-### Write programs with loops that compute
+#### Write programs with loops that compute
 
      a.  The sum of all even numbers between 2 and 100 (inclusive).
      b.  The sum of all squares between 1 and 100 (inclusive).
@@ -67,7 +67,7 @@ public class P4_01 {
 </p>
 </details>
 
-### Write programs that read a sequence of integer inputs and print
+#### Write programs that read a sequence of integer inputs and print
 
     a.  The smallest and largest of the inputs.
     b.  The number of even and odd inputs.
@@ -109,7 +109,7 @@ public class P4_02A {
 </p>
 </details>
 
-###  2b. The number of even and odd inputs.
+####  2b. The number of even and odd inputs.
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -142,7 +142,7 @@ public class P4_02B {
 </p>
 </details>
 
-### 2c. Cumulative totals. 
+#### 2c. Cumulative totals. 
 
 For example, if the input is 1 7 2 9, the program should print 1 8 10 19.
 
@@ -173,7 +173,7 @@ public class P4_02C {
 </p>
 </details>
 
-### 2d. All adjacent duplicates. 
+#### 2d. All adjacent duplicates. 
 
 For example, if the input is 1 3 3 4 5 5 6 6 6 2, the program should print 3 5 6.
 
@@ -209,7 +209,7 @@ public class P4_02D {
 </p>
 </details>
 
-### Write programs that read a line of input as a string and print
+#### Write programs that read a line of input as a string and print
 
 	d.  The number of digits in the string.
 	e.  The positions of all vowels in the string.
@@ -261,7 +261,7 @@ public class P4_03E {
 </details>
 
 
-###  Complete the program in How To 4.1 on page 182. Your program should read twelve temperature values and print the month with the highest temperature.
+#### Complete the program in How To 4.1 on page 182. Your program should read twelve temperature values and print the month with the highest temperature.
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -291,7 +291,7 @@ public class P4_04 {
 </p>
 </details>
 
-### Write a program that reads a set of floating-point values. Ask the user to enter the values, then print
+#### Write a program that reads a set of floating-point values. Ask the user to enter the values, then print
 
      • the average of the values.
      • the smallest of the values.
@@ -344,7 +344,7 @@ public class P4_05 {
 </p>
 </details>
 
-### Translate the following pseudocode for finding the minimum value from a set of inputs into a Python program.
+#### Translate the following pseudocode for finding the minimum value from a set of inputs into a Python program.
 
      Set a Boolean variable "first" to true.
      While another value has been read successfully
@@ -386,7 +386,7 @@ public class P4_06 {
 </p>
 </details>
 
-### Translate the following pseudocode for randomly permuting the characters in a string into a Java program.
+#### Translate the following pseudocode for randomly permuting the characters in a string into a Java program.
 
      Read a word.
      Repeat word.length() times
@@ -427,7 +427,7 @@ public class P4_07 {
 </p>
 </details>
 
-###  Write a program that reads a word and prints each character of the word on a separate line. For example, if the user provides the input  "Perparim" , the program prints:
+#### Write a program that reads a word and prints each character of the word on a separate line. For example, if the user provides the input  "Perparim" , the program prints:
 
      P
      e
@@ -459,7 +459,7 @@ public class P4_08 {
 </p>
 </details>
 
-###  Write a program that reads a word and prints the word in reverse. For example, if the  user provides the input  "Perparim" , the program prints:
+####  Write a program that reads a word and prints the word in reverse. For example, if the  user provides the input  "Perparim" , the program prints:
 
      mirapreP   
 
@@ -557,7 +557,7 @@ public class P4_11 {
 </p>
 </details>
 
-###  Write a program that reads a word and prints all substrings, sorted by length. For  example, if the user provides the input `"rum"`, the program prints:
+####  Write a program that reads a word and prints all substrings, sorted by length. For  example, if the user provides the input `"rum"`, the program prints:
 
      r
      u
@@ -591,7 +591,7 @@ public class P4_12 {
 </p>
 </details>
 
-### Write a program that prints all power of 2 from 2 of power 0 up to 2 of power 20  
+#### Write a program that prints all power of 2 from 2 of power 0 up to 2 of power 20  
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -609,7 +609,7 @@ public class P4_13 {
 </p>
 </details>
 
-### Write a program that reads an integer value and prints all of its binary digits in  reverse order: Print the remainder  number % 2 , then replace the number with  number //  2 . Keep going until the number is 0. For example, if the user provides the input 13,  the output should be
+#### Write a program that reads an integer value and prints all of its binary digits in  reverse order: Print the remainder  number % 2 , then replace the number with  number //  2 . Keep going until the number is 0. For example, if the user provides the input 13,  the output should be
 
      1
      0
@@ -639,7 +639,7 @@ public class P4_14 {
 </p>
 </details>
 
-### Mean and standard deviation. Write a program that reads a set of floating-point data  values. Choose an appropriate mechanism for prompting for the end of the data set.  When all values have been read, print out the count of the values, the aver age, and  the standard deviation.   
+#### Mean and standard deviation. Write a program that reads a set of floating-point data  values. Choose an appropriate mechanism for prompting for the end of the data set.  When all values have been read, print out the count of the values, the aver age, and  the standard deviation.   
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -672,7 +672,7 @@ public class P4_15 {
 </p>
 </details>
 
-### The Fibonacci numbers.  Reformulate that as
+#### The Fibonacci numbers.  Reformulate that as
 
      fold1 = 1
      fold2 = 1
@@ -714,7 +714,7 @@ public class P4_16 {
 </p>
 </details>
 
-### `Factoring of integers`. Write a program that asks the user for an integer and then  prints out all its factors. For example, when the user enters 150, the program should print
+#### `Factoring of integers`. Write a program that asks the user for an integer and then  prints out all its factors. For example, when the user enters 150, the program should print
 
      2
      3
@@ -750,7 +750,7 @@ public class P4_17 {
 </p>
 </details>
 
-### `Prime numbers`. Write a program that prompts the user for an integer and then prints  out all prime numbers up to that integer. For example, when the user enters 20, the  program should print
+#### `Prime numbers`. Write a program that prompts the user for an integer and then prints  out all prime numbers up to that integer. For example, when the user enters 20, the  program should print
 
      2
      3
@@ -796,7 +796,7 @@ public class P4_18 {
 </p>
 </details>
 
-### Write a program that prints a multiplication table, like this:
+#### Write a program that prints a multiplication table, like this:
 
      1    2   3   4   5   6   7   8   9   10
      2    4   6   8   10  12  14  16  18  20
@@ -825,7 +825,7 @@ public class P4_19 {
 </p>
 </details>
 
-### Write a program that reads an integer and displays, using asterisks, a filled and hol-low square, placed next to each other. For example if the side length is 5, the pro gram  should display
+#### Write a program that reads an integer and displays, using asterisks, a filled and hol-low square, placed next to each other. For example if the side length is 5, the pro gram  should display
 
      *****   *****
      *****   *   *
@@ -870,7 +870,7 @@ public class P4_20 {
 </p>
 </details>
 
-### Write a program that reads an integer and displays, using asterisks, a filled diamond of the given side length. For example, if the side length is 4, the program should display
+#### Write a program that reads an integer and displays, using asterisks, a filled diamond of the given side length. For example, if the side length is 4, the program should display
 
      *
     ***
@@ -929,7 +929,7 @@ public class P4_21 {
 </p>
 </details>
 
-### `The game of Nim`. 
+#### `The game of Nim`. 
 
 `This is a well-known game with a number of variants. The following  variant has an interesting winning strategy. Two players alternately take marbles from a pile. In each move, a player chooses how many marbles to take. The player must take at least one but at most half of the marbles. Then the other player takes a turn. The player who takes the last marble loses.
 Write a program in which the computer plays against a human opponent. Generate a random integer between 10 and 100 to denote the initial size of the pile. Generate a random integer between 0 and 1 to decide whether the computer or the human takes
@@ -1003,7 +1003,7 @@ public class P4_22 {
 </p>
 </details>
 
-### `The Drunkard’s Walk`.
+#### `The Drunkard’s Walk`.
 
 `A drunkard in a grid of streets randomly picks one of four directions and stumbles to the next intersection, then again randomly picks one of four directions, and so on. You might think that on average the drunkard doesn’t move very far because the choices cancel each other out, but that is actually not the case. Represent locations as integer pairs (x, y). Implement the drunkard’s walk over 100 intersections, starting at (0, 0), and print the ending location.`   
 
@@ -1051,7 +1051,7 @@ public class P4_23 {
 </p>
 </details>
 
-### `Currency conversion`. Write a program that first asks the user to type today’s price for one dollar in Japanese yen, then reads U.S. dollar values and converts each to yen. Use 0 as a sentinel.   
+#### `Currency conversion`. Write a program that first asks the user to type today’s price for one dollar in Japanese yen, then reads U.S. dollar values and converts each to yen. Use 0 as a sentinel.   
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -1079,7 +1079,7 @@ public class P4_27 {
 </p>
 </details>
 
-### Write a program that first asks the user to type in today’s price of one dollar in Jap­anese yen, then reads U.S. dollar values and converts each to Japanese yen. Use 0 as the sentinel value to denote the end of dollar inputs. Then the program reads a sequence of yen amounts and converts them to dollars. The second sequence is ter­minated by another zero value.   
+#### Write a program that first asks the user to type in today’s price of one dollar in Jap­anese yen, then reads U.S. dollar values and converts each to Japanese yen. Use 0 as the sentinel value to denote the end of dollar inputs. Then the program reads a sequence of yen amounts and converts them to dollars. The second sequence is ter­minated by another zero value.   
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -1118,7 +1118,7 @@ public class P4_28 {
 </p>
 </details>
 
-### Your company has shares of stock it would like to sell when their value exceeds a certain target price. Write a program that reads the target price and then reads the current stock price until it is at least the target price. Your program should read a sequence of floating-point values from standard input. Once the minimum is reached, the program should report that the stock price exceeds the target price.   
+#### Your company has shares of stock it would like to sell when their value exceeds a certain target price. Write a program that reads the target price and then reads the current stock price until it is at least the target price. Your program should read a sequence of floating-point values from standard input. Once the minimum is reached, the program should report that the stock price exceeds the target price.   
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -1148,7 +1148,7 @@ public class P4_29 {
 </p>
 </details>
 
-###  Write an application to pre-sell a limited number of cinema tickets. Each buyer can buy as many as 4 tickets. No more than 100 tickets can be sold. Implement a pro- gram called TicketSeller that prompts the user for the desired number of tickets and then displays the number of remaining tickets. Repeat until all tickets have been sold, and then display the total number of buyers.   
+#### Write an application to pre-sell a limited number of cinema tickets. Each buyer can buy as many as 4 tickets. No more than 100 tickets can be sold. Implement a pro- gram called TicketSeller that prompts the user for the desired number of tickets and then displays the number of remaining tickets. Repeat until all tickets have been sold, and then display the total number of buyers.   
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -1184,7 +1184,7 @@ public class P4_30 {
 </p>
 </details>
 
-###  You need to control the number of people who can be in an oyster bar at the same time. Groups of people can always leave the bar, but a group cannot enter the bar if they would make the number of people in the bar exceed the maximum of 100 occupants. Write a program that reads the sizes of the groups that arrive or depart. Use negative numbers for departures. After each input, display the current number of occupants. As soon as the bar holds the maximum number of people, report that the bar is full and exit the program.
+#### You need to control the number of people who can be in an oyster bar at the same time. Groups of people can always leave the bar, but a group cannot enter the bar if they would make the number of people in the bar exceed the maximum of 100 occupants. Write a program that reads the sizes of the groups that arrive or depart. Use negative numbers for departures. After each input, display the current number of occupants. As soon as the bar holds the maximum number of people, report that the bar is full and exit the program.
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -1218,7 +1218,7 @@ public class P4_31 {
 </p>
 </details>
 
-####  Credit Card Number Check. The last digit of a credit card number is the check digit, which protects against transcription errors such as an error in a single digit or switching two digits. The following method is used to verify actual credit card  numbers but, for simplicity, we will describe it for numbers with 8 digits instead  of 16:
+#### `Credit Card Number Check`. The last digit of a credit card number is the check digit, which protects against transcription errors such as an error in a single digit or switching two digits. The following method is used to verify actual credit card  numbers but, for simplicity, we will describe it for numbers with 8 digits instead  of 16:
 
      • Starting from the rightmost digit, form the sum of every other digit. For example, if the credit card number is 43589795, then you form the sum 5 + 7 + 8 + 3 = 23.
      
