@@ -484,8 +484,7 @@ public class P4_09 {
 </p>
 </details>
 
-###  Write a program that reads a word and prints the number of vowels in the word. For this exercise, assume that  `a e i o u y` are vowels. For example, if the user provides the input "Harry", the program prints  `2 vowels`.
-   
+#### Write a program that reads a word and prints the number of vowels in the word. For this exercise, assume that  `a e i o u y` are vowels. For example, if the user provides the input "Harry", the program prints  `2 vowels`.   
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -514,7 +513,7 @@ public class P4_10 {
 </p>
 </details>
 
-###  Write a program that reads a word and prints the number of syllables in the word.  For this exercise, assume that syllables are determined as follows: Each sequence of  adjacent vowels  `a e i o u y`, except for the last  e in a word, is a syllable. However, if  that algorithm yields a count of 0, change it to 1. For example,
+####  Write a program that reads a word and prints the number of syllables in the word.  For this exercise, assume that syllables are determined as follows: Each sequence of  adjacent vowels  `a e i o u y`, except for the last  e in a word, is a syllable. However, if  that algorithm yields a count of 0, change it to 1. For example,
 
      Word 	Syllables
      Harry 	2
@@ -558,7 +557,7 @@ public class P4_11 {
 </p>
 </details>
 
-### Write a program that reads a word and prints all substrings, sorted by length. For  example, if the user provides the input `"rum"`, the program prints:
+###  Write a program that reads a word and prints all substrings, sorted by length. For  example, if the user provides the input `"rum"`, the program prints:
 
      r
      u
@@ -1219,7 +1218,7 @@ public class P4_31 {
 </p>
 </details>
 
-###  Credit Card Number Check. The last digit of a credit card number is the check digit, which protects against transcription errors such as an error in a single digit or switching two digits. The following method is used to verify actual credit card  numbers but, for simplicity, we will describe it for numbers with 8 digits instead  of 16:
+####  Credit Card Number Check. The last digit of a credit card number is the check digit, which protects against transcription errors such as an error in a single digit or switching two digits. The following method is used to verify actual credit card  numbers but, for simplicity, we will describe it for numbers with 8 digits instead  of 16:
 
      • Starting from the rightmost digit, form the sum of every other digit. For example, if the credit card number is 43589795, then you form the sum 5 + 7 + 8 + 3 = 23.
      
