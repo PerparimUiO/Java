@@ -1,4 +1,4 @@
-**Java Programming Exercises, Practice, Solution**
+**Java Programming Exercises, Practice, Solution** `Inspired and based on the book: BIG JAVA, Late Objects!`
 | Chapters | Description |
 | --- | --- |
 |2- Fundamental Data Types | Variables, Arithmetic, Input and Output, Strings |
