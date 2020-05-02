@@ -690,7 +690,7 @@ public class P4_15 {
 </p>
 </details>
 
-### he Fibonacci numbers.  Reformulate that as
+### The Fibonacci numbers.  Reformulate that as
 
      fold1 = 1
      fold2 = 1
@@ -1166,7 +1166,7 @@ public class P4_29 {
 </p>
 </details>
 
-### Write an application to pre-sell a limited number of cinema tickets. Each buyer can buy as many as 4 tickets. No more than 100 tickets can be sold. Implement a pro- gram called TicketSeller that prompts the user for the desired number of tickets and then displays the number of remaining tickets. Repeat until all tickets have been sold, and then display the total number of buyers.   
+###  Write an application to pre-sell a limited number of cinema tickets. Each buyer can buy as many as 4 tickets. No more than 100 tickets can be sold. Implement a pro- gram called TicketSeller that prompts the user for the desired number of tickets and then displays the number of remaining tickets. Repeat until all tickets have been sold, and then display the total number of buyers.   
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
@@ -1202,7 +1202,7 @@ public class P4_30 {
 </p>
 </details>
 
-### You need to control the number of people who can be in an oyster bar at the same time. Groups of people can always leave the bar, but a group cannot enter the bar if they would make the number of people in the bar exceed the maximum of 100 occupants. Write a program that reads the sizes of the groups that arrive or depart. Use negative numbers for departures. After each input, display the current number of occupants. As soon as the bar holds the maximum number of people, report that the bar is full and exit the program.
+###  You need to control the number of people who can be in an oyster bar at the same time. Groups of people can always leave the bar, but a group cannot enter the bar if they would make the number of people in the bar exceed the maximum of 100 occupants. Write a program that reads the sizes of the groups that arrive or depart. Use negative numbers for departures. After each input, display the current number of occupants. As soon as the bar holds the maximum number of people, report that the bar is full and exit the program.
 
 <details><summary>💾 Zgjidhje alternative </summary>
 <p>
