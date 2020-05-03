@@ -464,18 +464,6 @@ Caution: Make sure the improved method doesn’t print 20 as "twenty zero"
 <p>
 
 ```java
-
-```  
-
-</p>
-</details>
-
-#### Informacion4 
-
-<details><summary>💾 Zgjidhje alternative </summary>
-<p>
-
-```java
 import java.util.Scanner;
 
 public class P5_12 {
@@ -643,6 +631,7 @@ public class P5_12 {
 
 </p>
 </details>
+
 
 #### For some values (for example, 20), the intName method returns a string with a leading space (" twenty"). Repair that blemish and ensure that spaces are inserted only  when necessary. 
 Hint: There are two ways of accomplishing this. Either ensure that  leading spaces are never inserted, or remove leading spaces from the result before  returning it.
