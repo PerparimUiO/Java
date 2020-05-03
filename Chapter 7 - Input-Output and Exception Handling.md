@@ -308,18 +308,6 @@ public class P7_06 {
 </p>
 </details>
 
-#### Informacione personale
-
-<details><summary>💾 Zgjidhje alternative </summary>
-<p>
-
-```java
-
-```
-
-</p>
-</details>
-
 ####  Write a program that checks the spelling of all words in a file. It should read each word of a file and check whether it is contained in a word list. A word list is available on most Linux systems in the file /usr/share/dict/words . The program should print out all words that it cannot find in the word list.
 
 <details><summary>💾 Zgjidhje alternative </summary>
@@ -378,7 +366,7 @@ public class P7_07 {
 </p>
 </details>
 
-#### /*Write a program that replaces each line of a file with its reverse. For example, if you run
+#### Write a program that replaces each line of a file with its reverse. For example, if you run
     java Reverse HelloPrinter.java
  then the contents of HelloPrinter.java are changed to
 
