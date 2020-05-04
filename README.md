@@ -8,7 +8,7 @@
 |6- Arrays and Array lists| Arrays, The Enhanced for Loop, Common Array Algorithms, Using Arrays with Methods, Two-Dimensional Arrays, Array Lists|
 |7- Input/output and exception handling|Reading and Writing Text Files, Text Input and Output, Command Line Arguments, Exception Handling|
 |8- Objects and Classes  | Inheritance Hierarchies, Implementing Subclasses, Overriding Methods, Polymorphism, Object: The Cosmic Superclass, Interface Types|
-|12- Object-Oriented Design  | Classes and Their Responsibilities, Relationships Between Classes, Packages| 
+|9- Inheritance and Interfaces  | Inheritance Hierarchies, Implementing Subclasses, Overriding Methods, Polymorphism,Interface Types| 
 |13- RECURSION | Triangle Numbers Revisited, Recursive Helper Methods, The Efficiency of Recursion, Permutations, Mutual Recursion, Backtracking|
 
 
